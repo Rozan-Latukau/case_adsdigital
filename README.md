@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-Ini adalah proyek dengan Framework Next.js yang menggunakan ShadCN UI dan tailwind css untuk antarmuka pengguna dan NextAuth untuk autentikasi pengguna.
+Ini adalah aplikasi dengan Framework Next.js yang menggunakan ShadCN UI dan tailwind css untuk antarmuka pengguna dan NextAuth untuk autentikasi pengguna. aplikasi ini sudah responsive di mobile, tablet dan desktop.
 
 ## Prasyarat
 
