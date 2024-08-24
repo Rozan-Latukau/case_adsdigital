@@ -1,10 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Step-By-Step Instalasi
+
+## Deskripsi
+
+Ini adalah aplikasi dengan Framework Next.js yang menggunakan ShadCN UI dan tailwind css untuk antarmuka pengguna dan NextAuth untuk autentikasi pengguna. Aplikasi ini sudah responsive di mobile, tablet, desktop dan memiliki fitur dark mode.
+
+## Prasyarat
+
+- Node.js 
+- Visual Studio Code
 
 ## Getting Started
 
-First, run the development server:
+Ikuti langkah-langkah di bawah ini untuk instalasi:
 
-```bash
+### 1. Install Depedensi
+
+``` 
+# Install Next js
+npx create-next-app@latest
+# Install ShadCN UI
+npx shadcn-ui@latest init
+# install NextAuth
+npm install next-auth
+```
+
+### 2. Clone Repository
+
+Clone repository ini ke mesin lokal Anda dan navigasikan ke direktori proyek.
+
+```
+# clone repository
+https://github.com/Rozan-Latukau/case_adsdigital.git
+cd case_adsdigital
+# Install node_modules
+# npm
+npm install
+# or yarn
+yarn install
+```
+
+### 2. Run server
+
+```
+# First, run the development server:
 npm run dev
 # or
 yarn dev
@@ -13,6 +51,10 @@ pnpm dev
 # or
 bun dev
 ```
+
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
