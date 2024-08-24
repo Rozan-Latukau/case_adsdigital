@@ -136,7 +136,7 @@ export function CardPricing() {
     return (
         <div className="flex md:grid md:grid-cols-2 lg:flex lg:flex-row flex-col items-center gap-6">
             {pricing.map((card, index) => (
-                <Card key={index}>
+                <Card key={index} className="hover:shadow-xl hover:shadow-gray-200">
                     <CardHeader>
                         <CardTitle>{card.title}</CardTitle>
                         <CardDescription>{card.description}</CardDescription>

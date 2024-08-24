@@ -80,9 +80,16 @@ const chartDataPesan = [
 ]
 const chartConfigPesan = {
     data1: {
-        label: "Data Pesan",
-        color: "hsl(var(--chart-1))",
+        label: "Data Pesan 2",
+        color: "hsl(var(--chart-2))",
     },
+    data2: {
+        label: "Data Pesan 1",
+        color: "hsl(var(--chart-1))",
+
+    },
+
+
 }
 
 
@@ -244,13 +251,6 @@ const AnalitikDashboard = () => {
                                     content={<ChartTooltipContent hideLabel />}
                                 />
                                 <Line
-                                    dataKey="data1"
-                                    type="linear"
-                                    stroke="#3366FF"
-                                    strokeWidth={2}
-                                    dot={false}
-                                />
-                                <Line
                                     dataKey="data2"
                                     type="linear"
                                     stroke="#000000"
@@ -258,6 +258,14 @@ const AnalitikDashboard = () => {
                                     dot={false}
                                     strokeDasharray="5 5"
                                 />
+                                <Line
+                                    dataKey="data1"
+                                    type="linear"
+                                    stroke="#3366FF"
+                                    strokeWidth={2}
+                                    dot={false}
+                                />
+
                             </LineChart>
                         </ChartContainer>
                     </div>
