@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-Ini adalah proyek dengan Frameork Next.js yang menggunakan ShadCN UI dan tailwind css untuk antarmuka pengguna dan NextAuth untuk autentikasi pengguna.
+Ini adalah proyek dengan Framework Next.js yang menggunakan ShadCN UI dan tailwind css untuk antarmuka pengguna dan NextAuth untuk autentikasi pengguna.
 
 ## Prasyarat
 
@@ -15,14 +15,11 @@ Ikuti langkah-langkah di bawah ini untuk mengatur proyek:
 
 ### 1. Install Depedensi
 
-``` Instal Dependensi
-
+``` 
 # Install Next js
 npx create-next-app@latest
-
 # Install ShadCN UI
 npx shadcn-ui@latest init
-
 # install NextAuth
 npm install next-auth
 ```
@@ -31,11 +28,10 @@ npm install next-auth
 
 Clone repository ini ke mesin lokal Anda dan navigasikan ke direktori proyek.
 
-```bash
+```
 # clone repository
 https://github.com/Rozan-Latukau/case_adsdigital.git
 cd case_adsdigital
-
 # Install node_modules
 # npm
 npm install
@@ -44,6 +40,7 @@ yarn install
 ```
 
 ### 2. Run server
+
 ```
 # First, run the development server:
 npm run dev
@@ -54,7 +51,6 @@ pnpm dev
 # or
 bun dev
 ```
-
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
