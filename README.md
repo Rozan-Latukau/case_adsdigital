@@ -11,7 +11,7 @@ Ini adalah proyek dengan Framework Next.js yang menggunakan ShadCN UI dan tailwi
 
 ## Getting Started
 
-Ikuti langkah-langkah di bawah ini untuk mengatur proyek:
+Ikuti langkah-langkah di bawah ini untuk instalasi:
 
 ### 1. Install Depedensi
 
