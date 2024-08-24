@@ -1,6 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Proyek Next.js dengan ShadCN UI dan NextAuth
+
+## Deskripsi
+
+Ini adalah proyek Next.js yang menggunakan ShadCN UI untuk antarmuka pengguna dan NextAuth untuk autentikasi pengguna.
+
+## Prasyarat
+
+- Node.js 
+- npm atau yarn
 
 ## Getting Started
+
+Ikuti langkah-langkah di bawah ini untuk mengatur proyek:
+
+### 1. Clone Repository
+
+Clone repository ini ke mesin lokal Anda dan navigasikan ke direktori proyek.
+
+```bash
+git clone https://github.com/username/repo.git
+cd repo
+
+### 2. Install Depedensi
+
+``` Instal Dependensi
+# Dengan npm
+npm install
+# Dengan yarn
+yarn install
+
+# Konfigurasi ShadCN UI
+npx shadcn-ui@latest init
+
+# 
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 First, run the development server:
 
